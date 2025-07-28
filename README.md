@@ -1,2 +1,1 @@
-# hashid
-HashId - Hash Unique Identifier
+# HashId (Hash Unique Identifier)
