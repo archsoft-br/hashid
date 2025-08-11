@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{63FAD7BB-B634-4DDB-8BA1-42FAC7D8BE32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{625F53A0-DDC7-4D3E-9521-8DB487029FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSoft.HashId", "src\ArchSoft.HashId\ArchSoft.HashId.csproj", "{4FAAA6B6-8271-42E2-858E-641BD306DD13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSoft.HashId.UnitTest", "test\ArchSoft.HashId.UnitTest\ArchSoft.HashId.UnitTest.csproj", "{A0F1CB14-B6B7-44B1-B4FE-7B4A7EEF4B9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FAAA6B6-8271-42E2-858E-641BD306DD13} = {63FAD7BB-B634-4DDB-8BA1-42FAC7D8BE32}
+		{A0F1CB14-B6B7-44B1-B4FE-7B4A7EEF4B9D} = {625F53A0-DDC7-4D3E-9521-8DB487029FB4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FAAA6B6-8271-42E2-858E-641BD306DD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAAA6B6-8271-42E2-858E-641BD306DD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAAA6B6-8271-42E2-858E-641BD306DD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAAA6B6-8271-42E2-858E-641BD306DD13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0F1CB14-B6B7-44B1-B4FE-7B4A7EEF4B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0F1CB14-B6B7-44B1-B4FE-7B4A7EEF4B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0F1CB14-B6B7-44B1-B4FE-7B4A7EEF4B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0F1CB14-B6B7-44B1-B4FE-7B4A7EEF4B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
