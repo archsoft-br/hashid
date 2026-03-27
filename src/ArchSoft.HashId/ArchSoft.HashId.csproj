@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>ArchSoft.HashId</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>ArchSoft</Authors>
+        <Company>ArchSoft</Company>
+        <Description>A .NET library for generating deterministic unique identifiers based on SHA256 hash. Ideal for creating primary keys, record checksums, and data comparison.</Description>
+        <PackageTags>hash;sha256;deterministic;primary-key;checksum;deduplication;identifier;hashid</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/archsoft/hashid</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/archsoft/hashid.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageOutputPath>$(SolutionDir)artifacts</PackageOutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../../README.md" Pack="true" PackagePath="\" Visible="false"/>
+    </ItemGroup>
+
+</Project>
